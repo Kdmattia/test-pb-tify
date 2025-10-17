@@ -2,11 +2,23 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"></script>
-  <script type="module" src="pb-tify.js" data-template="pages:load-components"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test pb-tify</title>
+
+  <!-- Carica i componenti -->
+  <script type="module" src="https://teipublisher.com/js/pb-components-bundle.js" data-template="pages:load-components"></script>
+  <script type="module" src="https://teipublisher.com/js/pb-tify.js" data-template="pages:load-components"></script>
+
   <style>
-    html, body { margin: 0; height: 100%; }
-    pb-tify { width: 100%; height: 100%; display: block; }
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+    pb-tify {
+      display: block;
+      height: 100vh;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
